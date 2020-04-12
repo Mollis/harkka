@@ -1,6 +1,10 @@
-const perse = perse()
-const perse2 = perse2()
+const http = require('http')
 
+const app = http.createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' })
+  res.end('Hello World')
+})
 
-persettä kaikille vittua
-
+const port = 3001
+app.listen(port)
+console.log(`Server running on port ${port}`)
