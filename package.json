@@ -1,0 +1,23 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "Fullstack opettelua",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mollis/harkka.git"
+  },
+  "keywords": [
+    "fullstack",
+    "open"
+  ],
+  "author": "Harri Huttunen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mollis/harkka/issues"
+  },
+  "homepage": "https://github.com/Mollis/harkka#readme"
+}
